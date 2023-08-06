@@ -76,10 +76,10 @@ Commands ran need to have the proper paths. If user wants to execute ./time 7, a
 then they must export the proper path to the list of paths.
 
 	9. Reading in the profile file on initialization of the shell and executing any commands inside
-The profile file is read upon initialization of the shell. It should be located in the home directory and named .CIS3110_profile
+The profile file is read upon initialization of the shell. It should be located in the home directory and named .shellQ_profile
 Each and every line will be executed from that profile file, which should usually contain additions to myPATH
 It is assumed that the user will not run any piping, I/O redirection or background processes with these commands.
-NOTE the given .CIS3110_profile file contains ls, ls -lt and myPATH=$myPATH:/usr/bin:/usr/games/bin to demonstrate/setup for commands like sort.
+NOTE the given .shellQ_profile file contains ls, ls -lt and myPATH=$myPATH:/usr/bin:/usr/games/bin to demonstrate/setup for commands like sort.
 
 	10. Builtin functions export, history and cd.
 export:

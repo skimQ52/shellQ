@@ -42,11 +42,11 @@ int main() {
     strcpy(myPATH[0], "/bin");
     numPaths++;
 
-    strcpy(myHISTFILE, ".CIS3110_history");
+    strcpy(myHISTFILE, ".shellQ_history");
     myHOME = getenv("HOME");//get home directory
 
     strcpy(profile, myHOME);
-    strcat(profile, "/.CIS3110_profile");//get path to profile
+    strcat(profile, "/.shellQ_profile");//get path to profile
 
     fp = fopen(profile, "r");
     do {

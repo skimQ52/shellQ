@@ -1,0 +1,3 @@
+ls
+ls -lt
+export myPATH=$myPATH:/usr/bin:/usr/games/bin:

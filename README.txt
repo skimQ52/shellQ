@@ -6,7 +6,7 @@ necessary for the shell, and shellQ.h holds the necessary includes along with ma
 function prototypes for the functions in shellQ.c
 
 There is also a makefile which creates the executable myShell
-With the profile file .CIS3110_profile in the home directory and all necessary files
+With the profile file .shellQ_profile in the home directory and all necessary files
 present, run 'make' then run './myShell' to start the shell.
 
 NOTE: if makefile gives access denied, please run 'chmod +x myShell' then try again
